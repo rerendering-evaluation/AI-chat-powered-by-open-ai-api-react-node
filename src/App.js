@@ -69,10 +69,7 @@ function App() {
       </div>
       <form onSubmit={handleSubmit} style={{position:"absolute",top:"90"+"%",left:"15"+"%",width:"75"+"%"}}>
         <input
-        style={{
-          position:"relative",
-          left:"15"+"%"
-        }}
+      
           className="chat-input-textarea"
           placeholder="Type your message here"
           value={input}
