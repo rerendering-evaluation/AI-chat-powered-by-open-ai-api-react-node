@@ -29,7 +29,7 @@ function App() {
     setchatlog(chatlogNew);
     const messages = chatlogNew.map((message) => message.message).join("\n");
 
-    const response = await fetch("http://localhost:3001", {
+    const response = await fetch("https://ai-chatbot-backend.onrender.com/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
